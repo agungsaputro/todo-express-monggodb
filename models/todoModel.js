@@ -12,3 +12,4 @@ const todoSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('todoModel', todoSchema);
+//mongoose.connect( 'mongodb://localhost/express-todo' );
